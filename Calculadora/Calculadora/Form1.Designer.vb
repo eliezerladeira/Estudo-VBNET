@@ -31,7 +31,7 @@ Partial Class Form1
         Me.lblValor2 = New System.Windows.Forms.Label()
         Me.txtValor1 = New System.Windows.Forms.TextBox()
         Me.lblValor1 = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.lblAviso = New System.Windows.Forms.Label()
         Me.grpCalculadora.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -74,6 +74,7 @@ Partial Class Form1
         '
         'txtResultado
         '
+        Me.txtResultado.Enabled = False
         Me.txtResultado.Location = New System.Drawing.Point(370, 44)
         Me.txtResultado.Name = "txtResultado"
         Me.txtResultado.Size = New System.Drawing.Size(100, 20)
@@ -121,14 +122,14 @@ Partial Class Form1
         Me.lblValor1.TabIndex = 0
         Me.lblValor1.Text = "Valor 1"
         '
-        'Label1
+        'lblAviso
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(9, 121)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(39, 13)
-        Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Label1"
+        Me.lblAviso.AutoSize = True
+        Me.lblAviso.Location = New System.Drawing.Point(9, 121)
+        Me.lblAviso.Name = "lblAviso"
+        Me.lblAviso.Size = New System.Drawing.Size(39, 13)
+        Me.lblAviso.TabIndex = 1
+        Me.lblAviso.Text = "Label1"
         '
         'Form1
         '
@@ -137,7 +138,7 @@ Partial Class Form1
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(536, 162)
         Me.ControlBox = False
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.lblAviso)
         Me.Controls.Add(Me.grpCalculadora)
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
@@ -158,5 +159,5 @@ Partial Class Form1
     Friend WithEvents lblValor2 As Label
     Friend WithEvents txtValor1 As TextBox
     Friend WithEvents lblValor1 As Label
-    Friend WithEvents Label1 As Label
+    Friend WithEvents lblAviso As Label
 End Class

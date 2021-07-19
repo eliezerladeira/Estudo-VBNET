@@ -10,3 +10,4 @@ C:\Users\eliez\OneDrive\Projetos\Estudo-VBNET\Calculadora\Calculadora\obj\Debug\
 C:\Users\eliez\OneDrive\Projetos\Estudo-VBNET\Calculadora\Calculadora\obj\Debug\Calculadora.exe
 C:\Users\eliez\OneDrive\Projetos\Estudo-VBNET\Calculadora\Calculadora\obj\Debug\Calculadora.xml
 C:\Users\eliez\OneDrive\Projetos\Estudo-VBNET\Calculadora\Calculadora\obj\Debug\Calculadora.pdb
+C:\Users\eliez\OneDrive\Projetos\Estudo-VBNET\Calculadora\Calculadora\obj\Debug\Calculadora.SplashScreen1.resources

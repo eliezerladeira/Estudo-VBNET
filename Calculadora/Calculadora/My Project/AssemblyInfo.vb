@@ -8,9 +8,9 @@ Imports System.Runtime.InteropServices
 
 ' Revise os valores dos atributos do assembly
 
-<Assembly: AssemblyTitle("Calculadora")>
-<Assembly: AssemblyDescription("")>
-<Assembly: AssemblyCompany("")>
+<Assembly: AssemblyTitle("Calculadora Natural")>
+<Assembly: AssemblyDescription("Uma simples calculadora para números naturais")>
+<Assembly: AssemblyCompany("Eliezer")>
 <Assembly: AssemblyProduct("Calculadora")>
 <Assembly: AssemblyCopyright("Copyright ©  2021")>
 <Assembly: AssemblyTrademark("")>
